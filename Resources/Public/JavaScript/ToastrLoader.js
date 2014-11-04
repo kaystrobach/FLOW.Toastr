@@ -24,16 +24,16 @@ toastr.options = {
 		$.each(messages, function(key, value) {
 			switch(value.severity) {
 				case 'Warning':
-					toastr.warning(value.message, value.title, {"timeOut": "10000"});
+					toastr.warning(value.message, value.title, {"timeOut": "15000"});
 				break;
 				case 'Information':
-					toastr.info(   value.message, value.title, {"timeOut": "3000"});
+					toastr.info(   value.message, value.title, {"timeOut": "8000"});
 				break;
 				case 'OK':
-					toastr.success(value.message, value.title, {"timeOut": "3000"});
+					toastr.success(value.message, value.title, {"timeOut": "8000"});
 				break;
 				case 'Error':
-					toastr.error(  value.message, value.title, {"timeOut": "10000"});
+					toastr.error(  value.message, value.title, {"timeOut": "15000"});
 					break;
 				default:
 					alert('Unknown Severity ' + value.severity);
