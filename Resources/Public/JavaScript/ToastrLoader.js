@@ -26,6 +26,7 @@ toastr.options = {
 				case 'Warning':
 					toastr.warning(value.message, value.title, {"timeOut": "15000"});
 				break;
+				case 'Notice':
 				case 'Information':
 					toastr.info(   value.message, value.title, {"timeOut": "8000"});
 				break;
