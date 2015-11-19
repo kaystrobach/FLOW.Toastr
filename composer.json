@@ -1,14 +1,19 @@
 {
-	"name":"kaystrobach/toastr",
-	"type":"typo3-flow-package",
-	"description":null,
-	"version":null,
-	"require":{
-		"typo3/flow":"*"
-	},
-	"autoload":{
-		"psr-0":{
-			"KayStrobach\\Toastr":"Classes"
-		}
-	}
+    "name": "kaystrobach/toastr",
+    "type": "typo3-flow-package",
+    "description": null,
+    "version": null,
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "KayStrobach\\Toastr": "Classes"
+        }
+    },
+    "extra": {
+        "applied-flow-migrations": [
+            "TYPO3.FLOW3-201201261636"
+        ]
+    }
 }
