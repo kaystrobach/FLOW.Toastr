@@ -31,7 +31,7 @@ class ToastrFlashMessagesViewHelper extends \TYPO3\Fluid\Core\ViewHelper\Abstrac
 		foreach ($flashMessages as $singleFlashMessage) {
 			$output[] = array(
 				'severity' => $singleFlashMessage->getSeverity(),
-				'message'  => $singleFlashMessage->getMessage(),
+				'message'  => $singleFlashMessage->render(),
 				'title'    => $singleFlashMessage->getTitle(),
 			);
 		}
