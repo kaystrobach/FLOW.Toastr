@@ -27,7 +27,7 @@ class ToastrFlashMessagesViewHelper extends \TYPO3\Fluid\Core\ViewHelper\Abstrac
 			return '';
 		}
 		$output = array();
-		/** @var \TYPO3\Flow\Error\Message $singleFlashMessage*/
+		/** @var \Neos\Flow\Error\Message $singleFlashMessage*/
 		foreach ($flashMessages as $singleFlashMessage) {
 			$output[] = array(
 				'severity' => $singleFlashMessage->getSeverity(),
