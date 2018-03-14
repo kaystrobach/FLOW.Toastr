@@ -9,7 +9,7 @@
 namespace KayStrobach\Toastr\ViewHelpers;
 
 
-class ToastrFlashMessagesViewHelper extends \TYPO3\Fluid\Core\ViewHelper\AbstractViewHelper {
+class ToastrFlashMessagesViewHelper extends \Neos\FluidAdaptor\Core\ViewHelper\AbstractViewHelper {
 	
 	/**
 	 * NOTE: This property has been introduced via code migration to ensure backwards-compatibility.
