@@ -1,6 +1,7 @@
 {
     "name": "kaystrobach/toastr",
     "type": "neos-package",
+    "license": "MIT",
     "description": null,
     "version": null,
     "require": {
