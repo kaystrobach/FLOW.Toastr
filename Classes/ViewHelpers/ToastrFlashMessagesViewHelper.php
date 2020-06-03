@@ -16,12 +16,12 @@ class ToastrFlashMessagesViewHelper extends \Neos\FluidAdaptor\Core\ViewHelper\A
 	 * @see AbstractViewHelper::isOutputEscapingEnabled()
 	 * @var boolean
 	 */
-	protected $escapeOutput = FALSE;
+	protected $escapeOutput = false;
 	/**
 	 * @param null $severity
 	 * @return string
 	 */
-	public function render($severity = NULL) {
+	public function render($severity = null) {
 		$flashMessages = $this->controllerContext->getFlashMessageContainer()->getMessagesAndFlush($severity);
 		if (count($flashMessages) < 1) {
 			return '';
